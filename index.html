@@ -4,10 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Task</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Georama' rel='stylesheet'>
+	<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg background">
@@ -40,31 +48,34 @@
 		  </div>
 		</div>
 		
-	  </nav>
+	</nav>
 
-  <div class="hero-container">
-	<div class="hero-block">
-		<span class="Kick-off date">Kick-off Date 23rd February, 2024</span>
-		<div class="tech-career"><p>Start your tech career, with <br>Hands-on & Practical courses</p></div>
-		<p class="sub-text">with a whooping 60% off all our courses, you will <br>still get access to out full training benefits</p>
-		<div class="hero-button-div">
-			<div class="enroll-button-div"><button class="enroll-button">ENROLL NOW</button></div>
-			<div class="testi-button-div"><button class="testimonial-button"><div class="play-icon-div"><img src="" class="play-icon"></div>SEE TESTIMONIALS</button></div>
+	<div class="hero-container section d-none d-lg-flex">
+		
+		<div class="hero-block">
+			<span class="Kick-off date">Kick-off Date 23rd February, 2024</span>
+			<div class="tech-career"><p>Start your tech career, with <br>Hands-on & Practical courses</p></div>
+			<p class="sub-text">with a whooping 60% off all our courses, you will <br>still get access to out full training benefits</p>
+			<div class="hero-button-div">
+				<div class="enroll-button-div"><button class="enroll-button">ENROLL NOW</button></div>
+				<div class="testi-button-div"><button class="testimonial-button"><div class="play-icon-div"><img src="./images/play-icon.svg" class="play-icon me-2"></div>SEE TESTIMONIALS</button></div>
+			</div>
 		</div>
+
+		<div class="hero-image"><img src="images/right frame grou.png " class="image"></div>
 	</div>
 
-	<div class="hero-image"><img src="images/right frame grou.png " class="image"></div>
-  </div>
-
-  <p id="section-course"> Our tech Awoof Courses </p>
-
-   <div class="parent-div-1">
-	<div class="col-md-4">
-		<div class="product-card px-4">
-			<h3 class="product-design">Product Design (UI/UX)</h3>
-			<p class="text-sub text-justify">This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-				research and design techniques that will have you job ready in less than three months </p>
-			
+  <div class="section">
+	<h2 class="section-heading">Our Tech Awoof Courses </h2>
+	<div class="parent-div-1 row">
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
 				<div class="row">
 					<div class="col-6 time-duration ">
 						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
@@ -87,81 +98,247 @@
 						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
 					</div>
 				</div>
-				<div class="money-div"><div class="price-tag ">N100,000</div> <div class="price-tag price">N250,000</div></div>
 				
-				<div class="course-button-div"><button class="course-button">ENROLL FOR THIS COURSE</button> <button class="learn-button">LEARN MORE</button></div>
-
-		</div>
-		
-    </div>
-
-	<div class="product-card px-4">
-		<h3 class="product-design">Product Design (UI/UX)</h3>
-		<p class="text-sub text-justify">This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-			research and design techniques that will have you job ready in less than three months </p>
-		
-			<div class="row">
-				<div class="col-6 time-duration ">
-					<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-					<h6 class="num-wk bold">10 weeks</h6>
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
 				</div>
-				<div class="col-6 time-duration">
-					<h5 class="full-date grey text-uppercase">Start date</h5>
-					<h5 class="level bold">2nd February, 2024</h5>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
 				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-6 duration">
-					<h6 class="mode grey text-uppercase ">Mode</h6>
-					<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-				</div>
-			
-				<div class="col-6 duration">
-					<h6 class="level-level grey text-uppercase">level</h6>
-					<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-				</div>
-			</div>
-			<div class="money-div"><div class="price-tag ">N100,000</div> <div class="price-tag price">N250,000</div></div>
-			
-			<div class="course-button-div"><button class="course-button">ENROLL FOR THIS COURSE</button> <button class="learn-button">LEARN MORE</button></div>
-
-	</div>
-
-	<div class="product-card px-4">
-		<h3 class="product-design">Product Design (UI/UX)</h3>
-		<p class="text-sub text-justify">This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-			research and design techniques that will have you job ready in less than three months </p>
-		
-			<div class="row">
-				<div class="col-6 time-duration ">
-					<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-					<h6 class="num-wk bold">10 weeks</h6>
-				</div>
-				<div class="col-6 time-duration">
-					<h5 class="full-date grey text-uppercase">Start date</h5>
-					<h5 class="level bold">2nd February, 2024</h5>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-6 duration">
-					<h6 class="mode grey text-uppercase ">Mode</h6>
-					<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-				</div>
-			
-				<div class="col-6 duration">
-					<h6 class="level-level grey text-uppercase">level</h6>
-					<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-				</div>
-			</div>
-			<div class="money-div"><div class="price-tag ">N100,000</div> <div class="price-tag price">N250,000</div></div>
-			
-			<div class="course-button-div"><button class="course-button">ENROLL FOR THIS COURSE</button> <button class="learn-button">LEARN MORE</button></div>
-
-	</div>
 	
-  </div> 
+			</div>
+			
+		</div>
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
+				<div class="row">
+					<div class="col-6 time-duration ">
+						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
+						<h6 class="num-wk bold">10 weeks</h6>
+					</div>
+					<div class="col-6 time-duration">
+						<h5 class="full-date grey text-uppercase">Start date</h5>
+						<h5 class="level bold">2nd February, 2024</h5>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 duration">
+						<h6 class="mode grey text-uppercase ">Mode</h6>
+						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					</div>
+				
+					<div class="col-6 duration">
+						<h6 class="level-level grey text-uppercase">level</h6>
+						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					</div>
+				</div>
+				
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
+				</div>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
+				</div>
+	
+			</div>
+			
+		</div>
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
+				<div class="row">
+					<div class="col-6 time-duration ">
+						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
+						<h6 class="num-wk bold">10 weeks</h6>
+					</div>
+					<div class="col-6 time-duration">
+						<h5 class="full-date grey text-uppercase">Start date</h5>
+						<h5 class="level bold">2nd February, 2024</h5>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 duration">
+						<h6 class="mode grey text-uppercase ">Mode</h6>
+						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					</div>
+				
+					<div class="col-6 duration">
+						<h6 class="level-level grey text-uppercase">level</h6>
+						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					</div>
+				</div>
+				
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
+				</div>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
+				</div>
+	
+			</div>
+			
+		</div>
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
+				<div class="row">
+					<div class="col-6 time-duration ">
+						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
+						<h6 class="num-wk bold">10 weeks</h6>
+					</div>
+					<div class="col-6 time-duration">
+						<h5 class="full-date grey text-uppercase">Start date</h5>
+						<h5 class="level bold">2nd February, 2024</h5>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 duration">
+						<h6 class="mode grey text-uppercase ">Mode</h6>
+						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					</div>
+				
+					<div class="col-6 duration">
+						<h6 class="level-level grey text-uppercase">level</h6>
+						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					</div>
+				</div>
+				
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
+				</div>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
+				</div>
+	
+			</div>
+			
+		</div>
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
+				<div class="row">
+					<div class="col-6 time-duration ">
+						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
+						<h6 class="num-wk bold">10 weeks</h6>
+					</div>
+					<div class="col-6 time-duration">
+						<h5 class="full-date grey text-uppercase">Start date</h5>
+						<h5 class="level bold">2nd February, 2024</h5>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 duration">
+						<h6 class="mode grey text-uppercase ">Mode</h6>
+						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					</div>
+				
+					<div class="col-6 duration">
+						<h6 class="level-level grey text-uppercase">level</h6>
+						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					</div>
+				</div>
+				
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
+				</div>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
+				</div>
+	
+			</div>
+			
+		</div>
+		<div class="col-lg-4 mb-4 col-sm-6">
+			<div class="product-card mx-3 px-3">
+				<h3 class="product-design">Product Design (UI/UX)</h3>
+				<p class="text-sub text-justify">
+					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+					research and design techniques that will have you job ready in less than three months 
+				</p>
+				
+				<div class="row">
+					<div class="col-6 time-duration ">
+						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
+						<h6 class="num-wk bold">10 weeks</h6>
+					</div>
+					<div class="col-6 time-duration">
+						<h5 class="full-date grey text-uppercase">Start date</h5>
+						<h5 class="level bold">2nd February, 2024</h5>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-6 duration">
+						<h6 class="mode grey text-uppercase ">Mode</h6>
+						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					</div>
+				
+					<div class="col-6 duration">
+						<h6 class="level-level grey text-uppercase">level</h6>
+						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					</div>
+				</div>
+				
+				<div class="money-div">
+					<div class="price-tag ">N100,000</div> 
+					<div class="price-tag price"><s>N250,000</s></div>
+				</div>
+				
+				<div class="course-button-div">
+					<button class="course-button">ENROLL FOR THIS COURSE</button> 
+					<button class="learn-button">LEARN MORE</button>
+				</div>
+	
+			</div>
+			
+		</div>
+
+		
+	</div> 
+  </div>
+  
+
+
  
 
   <div class="testimony-section">Inspiring Testimonies From Our Alumini</div>
