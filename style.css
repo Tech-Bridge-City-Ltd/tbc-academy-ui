@@ -1,0 +1,440 @@
+body{
+    font-family: Georama;
+}
+.background{
+    height: 80px;
+    /* background: red; */
+}
+.logo-div{
+    padding-left: 30px;
+}
+.navbar-collapse{
+    padding-right: 60px;
+}
+.nav-link{
+    font-size: 22px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.icon-div{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 40px;
+    border-left: 2px solid #cfcfcf;
+    height: 80px;
+}
+.home-icon{
+    width: 40px;
+}
+.button-div{
+    margin-top: 15px;
+}
+.button{
+    margin-top: -10px;
+    background-color: red;
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+} 
+.hero-image{
+    float: right;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding-left: 40px;
+}
+.image{
+    width: 80%;
+}
+.hero-container{
+    width: 100%;
+    display: flex;
+     background: #f8f8f8; 
+    height: 500px;
+}
+.hero-block{
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.date{
+    background: rgba(214, 40, 40, 0.10);
+    color: #d62828;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 4px 11px;
+    margin-top: 10px;
+}
+.tech-career{
+    margin-top: 20px;
+    color: #37474f;
+    font-size: 38px;
+    font-weight: 700;
+}
+.sub-text{
+    color: #7d7979;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero-button-div{
+    display: flex;
+    margin-top: 40px;
+}
+.enroll-button-div{
+    margin-right: 20px;
+}
+.enroll-button, .testimonial-button{
+    background-color: #d62828;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.enroll-button{
+    padding: 9px 20px;
+}
+.testimonial-button{
+    justify-content: center;
+    color: red;
+    border: 1px solid #d62828;
+    background: #fae7e7; 
+    padding: 9px 12px;
+    display: flex;
+}
+/* .play-icon-div{
+    background: #d62828;
+    padding: 8px;
+    border-radius: 100px;
+    /* height: 20px; */
+    /* width: 40px; */
+    /* margin-right: 10px; */
+/* } */ */
+/* .play-icon{
+    width: 18px;
+    padding-left: 0px;
+    background: darkred;
+} */
+
+#section-course{
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-right: 30px;
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.parent-div-1{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .product-card{
+    background: #ffff;
+   border-radius: 10px;
+    height: 471px;
+    width: 400px;
+    /* margin-right: 30px; */
+     /* padding-left: 12px;  */
+    
+} 
+.product-design{
+    padding-top: 15px;
+    color: #d62828;
+}
+.text-sub{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+    font-weight: 600;
+    color: #1e1e1e66;
+}
+.row{
+    padding-bottom: 10px;
+}
+.time-duration{
+    font-size: 12px;
+    /* padding: 0!important; */
+}
+.grey{
+    color: #1e1e1e66;
+    font-weight: 600;
+}
+.bold{
+    color: black;
+    font-weight: 600;
+}
+.phys{
+    font-size: 12px;
+}
+.full-date{
+    font-size: 16px;
+}
+.beginner{
+    font-size: 13px;
+}
+.level{
+    font-size: 14px;
+}
+.money-div{
+    display: flex;
+}
+.price-tag{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.price{
+    color: #1e1e1e66;
+}
+.course-button-div{
+    padding-top: 15px;
+}
+.course-button{
+    background: #030303;
+    border-radius: 5px;
+    padding: 8px 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffff;
+    border: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.course-button:hover{
+    background: #c00000;
+    color: #fff;
+}
+.learn-button{
+    background: #f8f8f8;
+    color: black;
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.learn-button:hover {
+    border: 2px solid#d61a1a;
+}
+
+.testimony-section{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.testimony-courses{
+    display: flex;
+    background: #e2e2e2;
+    width: 94%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-self: center; 
+    margin-left: 40px ;
+    margin-top: 30px;
+    border-bottom: 4px solid #d62828;
+    /* margin-right: 70px; */
+}
+.courses{
+    font-size: 28px;
+    margin-right: 70px;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+.design-course{
+    background: #d62828;
+    color: #f8f8f8;
+    padding: 10px 40px;
+}
+.design-course-section{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 40px;
+}
+.background-vid{
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    display: flex;
+    margin-top: 20px;
+    background-image: url(images/Background\ 6.svg);
+    width: 65%;
+}
+.arrow-left{
+    margin: 110px 30px 0 10px;
+    padding-top: 130px;
+    padding-left: 40px;
+    /* background: red; */
+}
+.vid{
+    /* margin-left: 30px; */
+    width: 400px ;
+    height: 550px;
+    padding-top: 20px;
+}
+.arrow-right{
+    margin: 110px 10px 0 30px;
+    padding-top: 130px;
+    /* background: yellow; */
+}
+.student-info{
+    width: 350px;
+    padding: 15px 20px;
+    border-radius: 0px;
+    border-left: 3px solid #c0c0c0;
+    background-color: #f0f0f0;
+    margin-top: 20px;  
+    margin-left: 20px;
+}
+
+.student-image{
+    width: 300px;
+}
+.name{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.design-student{
+    background: rgb(246, 250, 0);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.react{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.social-media{
+    width: 100px;
+}
+.product-button{
+    background: #d62828;
+    color: #f8f8f8;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+.product-button:hover{
+    background: #030303;
+    color: #fff;
+}
+.offer-section{
+    padding-top: 30px; 
+    margin-top: 40px;
+    background: #030303;
+    min-height: 250px;
+    width: 100%;
+    /* display: flex; */
+}
+.offer-list{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 90px;
+    
+}
+.offer-text{
+    font-size: 23px;
+    color: #f0f0f0;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.offer-div{
+    margin-right: 100px;
+}
+.write-up{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.offer-image{
+    padding-left: 40px;
+    width: 100px;
+}
+.top-project{
+    min-height: 500px;
+    padding-top: 40px;
+    padding-left: 30px;
+    /* padding-right: 30px; */
+    /* display: flex; */
+    /* width: 100%; */
+}
+.project-heading{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.projects{
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #d62828; */
+    margin-top: 30px;
+    width: 100%;
+}
+.project-div{
+    margin-right: 50px;
+}
+.rectangle{
+    background: #888888;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.project-name{
+    padding-top: 10px ;
+    color: #060630;
+    font-weight: 600;
+    font-size: 18px;
+}
+.project-writeup{
+    color:  #37474f;
+    padding-bottom: 10px;
+}
+.view-project{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1e1e25;
+    color: #f8f8f8;
+}
+.footer-div{
+    margin-top: 30px;
+    height: 100px;
+    background: #888888;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media  screen and (max-width: 1200px){
+    .tech-career {
+        color: #37474f;
+        font-size: 33px;
+    }
+    .sub-text {
+        font-size: 20px;
+    }
+    .write-up {
+        color: white;
+        font-weight: 600;
+        font-size: 19px;
+    }
+}
