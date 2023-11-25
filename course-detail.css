@@ -1,0 +1,212 @@
+body{
+    font-family: Georama;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+}
+.button-div{
+    margin-top: 15px;
+}
+.button{
+    margin-top: -10px;
+    background-color: red;
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+} 
+.icon-div{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 40px;
+    border-left: 2px solid #cfcfcf;
+    height: 80px;
+}
+.home-icon{
+    width: 40px;
+}
+.hero-pop-up{
+ 
+    display: flex;
+    padding-top: 15px;
+}
+.block1{
+    width: 58%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.design-text{
+    color: #d62828;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.course-type{
+    padding: 10px 0px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    background: rgb(30, 30, 30);
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+}
+.con{
+    margin-right: 25px;
+}
+.sub{
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+}
+.sub-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+.learning-goals{
+    margin-top: 30px;
+    color: #d62828;
+    font-size: 25px;
+    font-weight: 600;
+}
+.goals-div{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    color: #808080;
+    height: 100px;
+    margin-top: -10px;
+}
+.sec{
+    width: 100%;
+}
+.learn-icon{
+    width: 50px;
+}
+.container-text{
+    margin-left: 10px;
+    width: 280px;
+}
+.curriculum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course{
+    color: #d62828;
+    font-size: 25px;
+    font-weight: 600;
+}
+.download-tag{
+    font-size: 19px;
+    color: #4b4b4b;
+    font-weight: 600;
+}
+.card-div{
+    /* background: #d62828; */
+    width: 100%;
+    height: 550px;
+    padding-top: 20px;
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 5px */
+}
+.card{
+    align-items: center;
+    text-align: center;
+    width: 32%;
+    height: 249px;
+    border: none;
+    background: #dddddd;
+    padding-top: 20px;
+}
+.card-icon{
+    margin-bottom: 10px;
+}
+.user-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 13px;
+}
+.block2{
+    width: 42%;
+    padding-left: 30px;
+}
+.close-div{
+    cursor: pointer;
+    float: right;
+    padding-right: 40px;
+}
+.close-icon{
+    width: 60px;
+}
+.enroll-button-div{
+    margin-top: 110px;
+    padding-left: 50px;
+    
+}
+.enroll-button{
+    background: #d62828;
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.offer{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.offer-div{
+    padding-top: 10px;
+    min-height: 350px;
+    padding-left: 50px;
+}
+.offer-card{
+    width: 386px;
+    height: 264px;
+    background: #fff3f3;
+    border: 2px solid #d62828;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px #a3a3a3;
+}
+.list-div{
+    margin-top: 20px;
+}
+.list{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d62828;
+}
+.footer-div{
+    margin-top: 30px;
+    height: 100px;
+    background: #888888;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
