@@ -14,14 +14,21 @@
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Georama' rel='stylesheet'>
+	<link rel="stylesheet" href="./assets/owl-carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
 	<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./assets/owl-carousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="./assets/owl-carousel/docs/assets/owlcarousel/owl.carousel.js"></script>
 	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg background">
 		<div class="container-fluid">
-		  <div class="logo-div"><img src="images/TBC logo.svg" class="logo"></div>
-		  <div class="icon-div"><img src="images/Bottons.svg" class="home-icon"></div>
+			<div class="d-flex">
+				<div class="logo-div py-3"><img src="images/TBC logo.svg" class="logo"></div>
+				<div class="icon-div d-sm-inline d-none"><img src="images/Bottons.svg" class="home-icon"></div>
+			</div>
+		  
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
@@ -49,379 +56,648 @@
 		</div>
 		
 	</nav>
-
-	<div class="hero-container section d-none d-lg-flex">
+ 
+	<div class="hero-container section">
 		
-		<div class="hero-block">
-			<span class="Kick-off date">Kick-off Date 23rd February, 2024</span>
+		<div class="hero-block text-sm-center text-lg-start">
+			<span class="Kick-off date">Kick-off Date 5th February, 2024</span>
 			<div class="tech-career"><p>Start your tech career, with <br>Hands-on & Practical courses</p></div>
-			<p class="sub-text">with a whooping 60% off all our courses, you will <br>still get access to out full training benefits</p>
+			<p class="sub-text">With a whooping 60% off all our courses, <br class="d-lg-none d-xl-inline"> you will still get access to out full training benefits</p>
 			<div class="hero-button-div">
 				<div class="enroll-button-div"><button class="enroll-button">ENROLL NOW</button></div>
 				<div class="testi-button-div"><button class="testimonial-button"><div class="play-icon-div"><img src="./images/play-icon.svg" class="play-icon me-2"></div>SEE TESTIMONIALS</button></div>
+			</div>
+			<div class="d-flex brands mt-5">
+				<img src="images/pinterest.svg" alt="">
+				<img src="images/spotify.svg" alt="">
+				<img src="images/stripe.svg" alt="">
+				<img src="images/reddit.svg" alt="">
 			</div>
 		</div>
 
 		<div class="hero-image"><img src="images/right frame grou.png " class="image"></div>
 	</div>
+ 
+	<div class="section">
+		<h2 class="section-heading text-center text-md-start">Our Tech Awoof Courses </h2>
+		<div class="parent-div-1 row justify-content-center">
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
 
-  <div class="section">
-	<h2 class="section-heading">Our Tech Awoof Courses </h2>
-	<div class="parent-div-1 row">
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
 					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
 					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
 				</div>
+				
+			</div>
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
 
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
 					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
 					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
 				</div>
 				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
+			</div>
+
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
+					</div>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
+					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
 				</div>
 				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
+			</div>
+
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
+					</div>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
+					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
 				</div>
+				
+			</div>
+
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
+					</div>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
+					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
+				</div>
+				
+			</div>
+
+			<div class="col-lg-4 mb-4 col-sm-6 col-11">
+				<div class="product-card mx-3 px-3 py-2">
+					<h3 class="program-title product-design">Product Design (UI/UX)</h3>
+					<p class="text-sub text-start">
+						This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
+						research and design techniques that will have you job ready in less than three months 
+					</p>
+					
+					<div class="row">
+						<div class="col-6 time-duration ">
+							<h6 class="course-key duration grey text-uppercase">DURATION</h6>
+							<h6 class="num-wk bold course-value">10 weeks</h6>
+						</div>
+						<div class="col-6 time-duration">
+							<h5 class="course-key full-date grey text-uppercase">Start date</h5>
+							<h5 class="level bold course-value">2nd Feb. 2024</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 duration">
+							<h6 class="course-key mode grey text-uppercase ">Mode</h6>
+							<h6 class="phys bold course-value">Physical/Onsite</h6>
+						</div>
+					
+						<div class="col-6 duration">
+							<h6 class="course-key level-level grey text-uppercase">level</h6>
+							<h6 class=" beginner bold course-value">Beginner, Intermidiate</h6>
+						</div>
+					</div>
+					
+					<div class="money-div">
+						<div class="price-tag ">N100,000</div> 
+						<div class="price-tag price"><s>N250,000</s></div>
+					</div>
+					
+					<div class="course-button-div">
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 course-button">ENROLL FOR THIS COURSE</button> 
+						<button class="product-card-btn mb-xl-0 mb-lg-2 mb-md-0 mb-2 learn-button" onclick="toggleModal('hero-pop-up')">LEARN MORE</button>
+					</div>
+		
+				</div>
+				
+			</div>
+
+			
+		</div> 
+	</div>
 	
+
+
+	<div class="section">
+		<h2 class="section-heading text-center text-md-start">Inspiring Testimonies From Our Alumini</h2>
+		<div class="testimony-courses">
+			<div id="design-course" class="courses active">Product Design UI/UX</div>
+			<div id="frontend-course" class="courses">Frontend Development</div>
+			<div id="analytics-course" class="courses">Data science/Analytics</div>
+		</div> 
+
+		<div class="course-testimony-section">
+			<div class="design-course-testimony testimony-div active">
+				<div class="background-vid">
+					<!-- <div><img src="images/ph_caret-up-light-1.pn" class="arrow-left"></div>
+					<img src="images/Rectangle 3.png" class="vid">
+					<div><img src="images/ph_caret-up-light.png" class="arrow-right"></div> -->
+					<div class="vid">
+						<video src="videos/result.mp4" controls class="testimonial-videos"></video>
+					</div>
+					
+				</div>
+				<div class="student-info">
+					<div class="design-student-image">
+						<img src="images/Rectangle 9.png" class="student-image">
+					</div>
+					<div class="student-data">
+						<p class="name">Joseph Akpama</p>
+						<span class="design-student">Product Design Student</span>
+						<p class="joseph-work">I learnt understanding innovation, creativity and design thinking is crucial to design.I liked how flexible it was,We had alot of fun while learning. I would rate it 10/10</p>
+						<p class="react">Reach Joseph on</p>
+						<div><img src="images/Frame 81.png" class="social-media" ></div>
+						<p>josepgdget@gmail.com</p>
+						<button class="product-button">ENROLL FOR PRODUCT DESIGN </button>
+					</div>
+				</div>
+			</div>
+
+			<div class="frontend-course-testimony testimony-div">
+				<div class="background-vid">
+					<div><img src="images/ph_caret-up-light-1.png" class="arrow-left"></div>
+					<img src="images/Rectangle 3.png" class="vid">
+					<div><img src="images/ph_caret-up-light.png" class="arrow-right"></div>
+				</div>
+				<div class="student-info">
+					<div class="design-student-image"><img src="images/Rectangle 9.png" class="student-image"></div>
+					<p class="name">Peter Johnson</p>
+					<span class="design-student">Frontend Student</span>
+					<p class="joseph-work">I learnt understanding innovation, creativity and design thinking is crucial to design.I liked how flexible it was,We had alot of fun while learning. I would rate it 10/10</p>
+					<p class="react">Reach Joseph on</p>
+					<div><img src="images/Frame 81.png" class="social-media" ></div>
+					<p>josepgdget@gmail.com</p>
+					<button class="product-button">ENROLL FOR PRODUCT DESIGN </button>
+				</div>
+			</div>
+
+			<div class="analytics-course-testimony testimony-div">
+				<div class="background-vid">
+					<div><img src="images/ph_caret-up-light-1.png" class="arrow-left"></div>
+					<img src="images/Rectangle 3.png" class="vid">
+					<div><img src="images/ph_caret-up-light.png" class="arrow-right"></div>
+				</div>
+				<div class="student-info">
+					<div class="design-student-image"><img src="images/Rectangle 9.png" class="student-image"></div>
+					<p class="name">James Allen</p>
+					<span class="design-student">Data Science Student</span>
+					<p class="joseph-work">I learnt understanding innovation, creativity and design thinking is crucial to design.I liked how flexible it was,We had alot of fun while learning. I would rate it 10/10</p>
+					<p class="react">Reach Joseph on</p>
+					<div><img src="images/Frame 81.png" class="social-media" ></div>
+					<p>josepgdget@gmail.com</p>
+					<button class="product-button">ENROLL FOR PRODUCT DESIGN </button>
+				</div>
 			</div>
 			
+		</div> 
+	</div>
+
+  
+
+	<div class="offer-section section">
+		<h4 class="section-heading  text-center text-md-start text-white"> What we offer</h4>
+
+		<div class="offer-list">
+			<div class="offer-div">
+				<img src="images/Capa_1.png" class="offer-image">
+				<div class="project-based write-up">Project-based Learning</div>
+			</div>
+
+			<div class="offer-div">
+				<img src="images/Capa_1.png" class="offer-image">
+				<div class="mentorship write-up">Career Coaching & Mentorship</div>
+			</div>
+
+			<div class="offer-div">
+				<img src="images/Layer_2.png" class="offer-image">
+				<div class="gig write-up">Job/Gig Links</div>
+			</div>
+
+			<div class="offer-div">
+				<img src="images/Frame-1.png" class="offer-image">
+				<div class="instuctors write-up">Seasoned & Expert Instructors</div>
+			</div>
+
 		</div>
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
-					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
-					</div>
+
+	</div>
+
+	<div class="section">
+			<h2 class="section-heading text-center text-md-start" >Top 3 Projects From some Of Our students</h2>
+			<div class="projects-parent d-none d-sm-flex">
+				<div class="project-box" >
+					<div class="rectangle"></div>
+					<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+					<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+					<a href="#" class="view-project"> View Project</a>
 				</div>
 
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
+				<div class="project-box">
+					<div class="rectangle"></div>
+					<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+					<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+					<a href="#" class="view-project"> View Project</a>
+				</div>
+
+				<div class="project-box">
+					<div class="rectangle"></div>
+					<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+					<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+					<a href="#" class="view-project"> View Project</a>
+				</div>
+
+			</div>
+
+			<div class="projects-parent owl-carousel owl-theme d-sm-none">
+				
+					<div class="item project-box">
+						<div class="rectangle"></div>
+						<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+						<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+						<a href="#" class="view-project"> View Project</a>
 					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
+
+					<div class="item project-box">
+						<div class="rectangle"></div>
+						<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+						<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+						<a href="#" class="view-project"> View Project</a>
 					</div>
+
+					<div class="item project-box">
+						<div class="rectangle"></div>
+						<p class="project-name">O-Market - Fresh fruits Marketplace</p>
+						<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
+						<a href="#" class="view-project"> View Project</a>
+					</div>
+						
+			</div>
+
+	</div> 
+
+	<div class="hero-pop-up" id="hero-pop-up">
+		<div class="close-panel">
+			<div class="close-div" onclick="toggleModal('hero-pop-up')"><img src="images/Dell_fill.svg" class="close-icon"></div>
+		</div>
+		<div class="block1">
+			<h3 class="design-text">Product Design (UI/UX)</h3>
+			<div class="course-type">
+				<div class="con">
+					<div class="sub">MODE</div>
+					<div class="sub-text mode">HYBRID - 80% ONSITE <br>20% ONLINE CLASSES</div>
+				</div>
+
+				<div class="con">
+					<div class="sub">DURATION</div>
+					<div class="sub-text mode">12 WEEKS</div>
+				</div>
+
+				<div class="con">
+					<div class="sub">LEVEL</div>
+					<div class="sub-text mode">BEGINNER, <br>INTERMEDIATE</div>
+				</div>
+
+				<div class="con">
+					<div class="sub">START-DATE</div>
+					<div class="sub-text mode">5TH FEBRUARY 2024 </div>
+				</div>
+
+			</div>
+			<h5 class="learning-goals modal-sub-headings">Learning Goals</h5>
+			<div class="goals-div">
+				<div class="goals-container">
+					<img src="images/Frame.svg" class="learn-icon">
+					<div class="container-text">Master User-centered Design Principles, Design Thinking and User Research to give inituitive and User-friendly products</div>
+				</div>
+				<div class="goals-container">
+					<img src="images/Frame.svg" class="learn-icon">
+					<div class="container-text">Master User-centered Design Principles, Design Thinking and User Research to give inituitive and User-friendly products</div>
+				</div>
+				<div class="goals-container">
+					<img src="images/Frame.svg" class="learn-icon">
+					<div class="container-text">Master User-centered Design Principles, Design Thinking and User Research to give inituitive and User-friendly products</div>
+				</div>
+				<div class="goals-container">
+					<img src="images/Frame.svg" class="learn-icon">
+					<div class="container-text">Master User-centered Design Principles, Design Thinking and User Research to give inituitive and User-friendly products</div>
+				</div>
+				<div class="goals-container">
+					<img src="images/Frame.svg" class="learn-icon">
+					<div class="container-text">Master User-centered Design Principles, Design Thinking and User Research to give inituitive and User-friendly products</div>
 				</div>
 				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
-				</div>
 				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
+			</div>
+			<div class="curriculum">
+				<span class="course modal-sub-headings">Course Currriculum</span>
+				<span><a href="#" class="download-tag">Download Course Brochure</a></span>
+			</div>
+			<div class="card-div">
+				<div class="card">
+					<img src="images/Page-1.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
 				</div>
-	
+				<div class="card">
+					<img src="images/creative_2421305.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
+				</div>
+				<div class="card">
+					<img src="images/web_4416391.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
+				</div>
+				<div class="card">
+					<img src="images/web-design_3159310.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
+				</div>
+				<div class="card">
+					<img src="images/design_3586494.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
+				</div>
+				<div class="card">
+					<img src="images/bulb_9874471.svg" class="card-icon" >
+					<p class="user-text">User Experience (UX) Design Fundamentals</p>
+					<p class="card-text">Design and Explain the field of UX, understand the core principles, techniques and tools in Ui Design and follow the UX process</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="block2 ">
+			
+			
+			<div class="enroll-button-div block-2-enroll">
+				<a href="#" class="enroll-button w-100">ENROLL FOR PRODUCT DESIGN</a>
 			</div>
 			
-		</div>
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
-					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-					</div>
-				</div>
-				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
-				</div>
-				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
-				</div>
-	
+			<div class="offer">WHAT YOU'LL GET</div>
+			
+			<div class="offer-card mt-3">
+				<ul class="list-div">
+					<li class="list">Practical/Project Based-Learning</li>
+					<li class="list">Interactive and Conductive Learning</li>
+					<li class="list">Seasoned and Expert Instructors</li>
+					<li class="list">Career Mentorship</li>
+					<li class="list">Certificate of completion</li>
+					<li class="list">Link With Gigs/Job Opportunities</li>
+				</ul>
 			</div>
 			
-		</div>
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
-					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-					</div>
-				</div>
-				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
-				</div>
-				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
-				</div>
-	
-			</div>
-			
-		</div>
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
-					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-					</div>
-				</div>
-				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
-				</div>
-				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
-				</div>
-	
-			</div>
-			
-		</div>
-		<div class="col-lg-4 mb-4 col-sm-6">
-			<div class="product-card mx-3 px-3">
-				<h3 class="product-design">Product Design (UI/UX)</h3>
-				<p class="text-sub text-justify">
-					This is your path to a career in Ux deign, in this program, you'll learn in-demand skills,and solve real world problems using creative user experience
-					research and design techniques that will have you job ready in less than three months 
-				</p>
-				
-				<div class="row">
-					<div class="col-6 time-duration ">
-						<h6 class="duration grey text-uppercase">COURSE DURATION</h6>
-						<h6 class="num-wk bold">10 weeks</h6>
-					</div>
-					<div class="col-6 time-duration">
-						<h5 class="full-date grey text-uppercase">Start date</h5>
-						<h5 class="level bold">2nd February, 2024</h5>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-6 duration">
-						<h6 class="mode grey text-uppercase ">Mode</h6>
-						<h6 class="phys bold">PHYSICAL/ONSITE</h6>
-					</div>
-				
-					<div class="col-6 duration">
-						<h6 class="level-level grey text-uppercase">level</h6>
-						<h6 class=" beginner bold">BEGINNER, INTERMIDIATE</h6>
-					</div>
-				</div>
-				
-				<div class="money-div">
-					<div class="price-tag ">N100,000</div> 
-					<div class="price-tag price"><s>N250,000</s></div>
-				</div>
-				
-				<div class="course-button-div">
-					<button class="course-button">ENROLL FOR THIS COURSE</button> 
-					<button class="learn-button">LEARN MORE</button>
-				</div>
-	
-			</div>
+			<img src="images/hand-holding-phone.svg" id="hand-holding-phone">
 			
 		</div>
 
 		
-	</div> 
-  </div>
-  
-
-
- 
-
-  <div class="testimony-section">Inspiring Testimonies From Our Alumini</div>
-  <div class="testimony-courses">
-	<div class="design-course courses">Product Design UI/UX</div>
-	<div class="frontend-course courses">Frontend Development</div>
-	<div class="analytics-course courses">Data science/Analytics</div>
-  </div> 
-
-  <div class="design-course-section">
-	<div class="background-vid">
-		<div><img src="images/ph_caret-up-light-1.png" class="arrow-left"></div>
-		 <img src="images/Rectangle 3.png" class="vid">
-		<div><img src="images/ph_caret-up-light.png" class="arrow-right"></div>
-		</div>
-	<div class="student-info">
-		<div class="design-student-image"><img src="images/Rectangle 9.png" class="student-image"></div>
-		<p class="name">Joseph Akpama</p>
-		<span class="design-student">Product Design Student</span>
-		<p class="joseph-work">I learnt understanding innovation, creativity and design thinking is crucial to design.I liked how flexible it was,We had alot of fun while learning. I would rate it 10/10</p>
-		<p class="react">Reach Joseph on</p>
-		<div><img src="images/Frame 81.png" class="social-media" ></div>
-		<p>josepgdget@gmail.com</p>
-		<button class="product-button">ENROLL FOR PRODUCT DESIGN </button>
 	</div>
-  </div> 
+	
 
-  <div class="offer-section">
-	  <div><h4 class="offer-text"> What we offer</h4></div>
+<!--
+  <div class="footer-div"><footer class="footer"><h1>Footer</h1></footer></div> -->
+  <script src="./assets/owl-carousel/docs/assets/vendors/highlight.js"></script>
+  <script src="./assets/owl-carousel/docs/assets/js/app.js"></script>
 
-	  <div class="offer-list">
-		<div class="offer-div">
-			<img src="images/Capa_1.png" class="offer-image">
-			<div class="project-based write-up">Practical/project-based Learning</div>
-		</div>
+  <!-- Tab and Pill Scripts -->
+  <script>
+	const testimonyTags = document.querySelectorAll(".courses");
 
-		<div class="offer-div">
-			<img src="images/Capa_1.png" class="capa offer-image">
-			<div class="mentorship write-up">Career Coaching/ Mentorship</div>
-		</div>
+	const toogleActiveClass =  (event) => {
+		const id = event.currentTarget.id;
+		testimonyTags.forEach((testimonySection) => {
+			testimonySection.classList.remove("active");
+		})
+		
+		event.currentTarget.classList.add("active");
+		// document.querySelectorAll()
+		console.log(id);
+		document.querySelectorAll('.testimony-div').forEach((testimonyDiv) => {
+			testimonyDiv.classList.remove("active");
+		})
+		document.querySelector(`.${id}-testimony`).classList.add("active");
+	}
 
-		<div class="offer-div">
-			<img src="images/Layer_2.png" class="Layer-2 offer-image">
-			<div class="gig write-up">Link With Gigs/Job Opportunity</div>
-		</div>
+	testimonyTags.forEach((testimonySection) => {
+	
+	testimonySection.addEventListener("click", toogleActiveClass)
+	}) 
+  </script>
+  <!-- Side Modal control  -->
+  <script>
+	const showModal = (modal_id) => {
+		document.querySelector('#'+modal_id).style.display = "flex"
+	}
 
-		<div class="offer-div">
-			<img src="images/Frame-1.png" class="frame-1 offer-image">
-			<div class="instuctors write-up">Seasoned and Expert Instructors</div>
-		</div>
+	const hideModal = (modal_id) => {
+		document.querySelector('#'+modal_id).style.display = "none"
+	}
 
-	</div>
-
-  </div>
-
-  <div class="top-project">
-		<h2 class="project-heading" >Top 3 Projects From some Of Our students</h2>
-		<div class="projects">
-			<div class="project-div" >
-				<div class="rectangle"></div>
-				<p class="project-name">O-Market - Fresh fruits Marketplace</p>
-				<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
-				<button class="view-project"> View Project</button>
-			</div>
-
-			<div class="project-div">
-				<div class="rectangle"></div>
-				<p class="project-name">O-Market - Fresh fruits Marketplace</p>
-				<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
-				<button class="view-project"> View Project</button>
-			</div>
-
-			<div class="project-div">
-				<div class="rectangle"></div>
-				<p class="project-name">O-Market - Fresh fruits Marketplace</p>
-				<h6 class="project-writeup">Top 3 Projects from some of our student Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque rem deserunt odit molestias.</h6>
-				<button class="view-project"> View Project</button>
-			</div>
-
-		</div>
-
-  </div>
-
-  <div class="footer-div"><footer class="footer"><h1>Footer</h1></footer></div>
+	const toggleModal = (modal_id) => {
+		const target = document.querySelector('#'+modal_id);
+		const computedCss = getComputedStyle(target);
+		if(computedCss.display === "none"){
+			showModal(modal_id)
+		}
+		else{
+			hideModal(modal_id)
+		}
+	}
+  </script>
+  <!-- Carousel script -->
+	<script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                  0: {
+                    items: 1.5,
+                    nav: true
+                  },
+                  
+                }
+              })
+            })
+		</script>
 </body>
 </html>
