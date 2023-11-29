@@ -22,7 +22,7 @@ a{
 }
 
 .navbar-toggler-icon{
-    background-image: url(images/nav-menu.svg);
+    background-image: url(../images/nav-menu.svg);
 }
 .background{
     height: 80px;
@@ -36,7 +36,8 @@ a{
 }
 .nav-link{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .nav-item{
     margin-right: 10px;
@@ -320,7 +321,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background-image: url(images/Background\ 6.svg);
+    background-image: url(../images/Background\ 6.svg);
     width: 65%;
 }
 .arrow-left{
@@ -330,7 +331,8 @@ a{
     /* background: red; */
 }
 .testimonial-videos{
-    width: 100%;
+    width: 130%!important;
+    
 }
 .vid{
     width: 70%;
@@ -409,7 +411,7 @@ a{
     padding-top: 5px;
     padding-left: 30px;
 }
-.offer-div{
+.offer-carrier{
     /* margin-right: 100px; */
     padding: 0 30px;
     width: 25%;
@@ -483,13 +485,7 @@ a{
 
 /* Course Detail Modal */
 
-body{
-    font-family: Georama;
-}
-.nav-link{
-    font-size: 14px;
-    font-weight: 500;
-}
+
 .button-div{
     margin-top: 15px;
 }
@@ -575,7 +571,7 @@ body{
 }
 .goals-div{
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -588,7 +584,7 @@ body{
     font-size: 12px;
     font-weight: 500;
     color: #808080;
-    height: 100px;
+    min-height: 50px;
     margin-top: -10px;
 }
 
@@ -835,6 +831,11 @@ body{
         width: 100%;
     }
 
+    .testimonial-videos{
+        width: 120%!important;
+        
+    }
+
     .text-sub{
         font-size: 12px;
         line-height: 20px;
@@ -1036,7 +1037,7 @@ body{
         font-size: 17px;
     }
     
-    .offer-div{
+    .offer-carrier{
         padding: 0 10px;
     }
     .write-up {
@@ -1287,7 +1288,7 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .offer-div{
+    .offer-carrier{
         width: 50%;
         margin-bottom: 40px;
     }
