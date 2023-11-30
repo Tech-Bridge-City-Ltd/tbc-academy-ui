@@ -5,13 +5,20 @@
 body{
     font-family: Georama;
 }
-.row>*{
+/* .row>*{
     padding-left: 0!important;
     padding-right: 0!important;
-}
+} */
 .row{
     margin-left: 0!important;
     margin-right: 0!important;
+}
+
+.pe-3{
+    padding-right: 1rem!important;
+}
+.ps-3{
+    padding-left: 1rem!important;
 }
 a{
     text-decoration: none;
@@ -512,11 +519,12 @@ a{
 .home-icon{
     width: 40px;
 }
-.hero-pop-up{
+.hero-pop-up, .main{
     display: none;
     padding-top: 15px;
     width: 90%;
     position: fixed;
+    justify-content: space-between;
     right: 0;
     top: 0;
     background-color: #f8f8f8;
@@ -641,7 +649,7 @@ a{
     font-size: 13px;
 }
 .block2{
-    width: 50%;
+    width: 40%;
     padding-left: 30px;
     margin-top: 40px;
     padding-top: 10px;
@@ -762,6 +770,187 @@ a{
   #hero-pop-up.slide-out {
     animation: slideOutToRight 0.5s ease-in-out;
   }
+
+
+
+  /* Enrollment modal */
+  
+.main{
+    /* display: flex; */
+    /* background: purple; */
+    /* min-height: 600px; */
+    padding-bottom: 20px;
+}
+.section-one{
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.section-one, .section-two{
+    margin-bottom: 20px;
+}
+.enrollment-section-heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.enrollment-section-heading-instruction{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px !important;
+}
+.form-div{
+    width: 90%;
+}
+.inline-text{
+    color: #d62828;
+    font-weight: 700;
+}
+.label{
+    font-size: 16px;
+}
+.star{
+    font-size: 30px;
+    font-weight: 700;
+    color: #d62828;
+}
+.hidden{
+    visibility: hidden;
+}
+input[type=text]{
+    padding: 15px 30px;
+    /* border-radius: 8px;
+    color: #d62828;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600; */
+}
+input[type=text]:focus{
+    border: 3px solid #d62828;
+}
+input[type=number]{
+    padding: 15px 30px;
+    /* border-radius: 8px;
+    color: #d62828;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600; */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.gender-div{
+    border: 1px solid #b4b4b4;
+    padding: 15px 10px;
+    border-radius: 8px;
+    display: flex;
+}
+input[type="radio"]{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}
+.gender{
+    font-size: 17px;
+    margin-left: 5px;
+    color: #918e8e;
+}
+.gender-div :focus{
+    background: #fff3f3;
+    border: 2px solid #d62828;
+}
+input[type=email]{
+    padding: 15px 30px;
+}
+.col-3.pay-div{
+    width: 32%;
+}
+.pay-div{
+    border: 1px solid #b4b4b4;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+.payment-method{
+    /* background: red; */
+    font-size: 15px;
+}
+.address{
+    padding: 15px 30px;
+    /* width: 100%; */
+}
+.continue-button{
+    padding: 5px 40px;
+    background: #d62828;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.starts{
+    font-size: 14px;
+}
+.starts-date{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+.section-two{
+    width: 42%;
+    padding-left: 50px;
+}
+.close-div{
+    cursor: pointer;
+    float: right;
+    padding-right: 40px;
+}
+
+
+.list{
+    padding-top: 2px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #d62828;
+}
+.awoof-price{
+    color: #d62828;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.awoof-course-div{
+    width: 386px;
+    height: 180px;
+    border-radius: 8px;
+    border: 2px solid #1e1e1e;
+    margin-bottom: 40px;
+}
+.amount{
+    margin-right: 10px;
+}
+.course-amount {
+    background: #1e1e1e;
+    color: #fff;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 33px;
+    /* text-align: center; */
+    font-size: 22px;
+}
+.course-list-ul{
+    margin-top: 10px;
+}
+.course-list{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+
 @media screen and (max-width: 1200px){
     .date{
         font-size: 16px;
@@ -819,6 +1008,38 @@ a{
         height: 480px;
     }
     
+    /* Enrollment Form Modal */
+    .enrollment-section-heading{
+        font-size: 30px;
+    }
+    .enrollment-section-heading-instruction{
+        font-size: .85rem;
+    }
+    .input-group .btn{
+        padding: 6px 8px;
+    }
+    .section-one .form-control,  .gender, .payment-method{
+        font-size: 13px!important;
+    }
+
+    .section-one .form-control{
+        padding: 15px 20px;
+    }
+
+    .gender{
+        font-size: 14px;
+    }
+
+    input[type="radio"]{
+        height: 20px;
+    }
+    .continue-button{
+        padding: 5px 20px;
+    }
+
+    .awoof-course-div, .offer-card{
+        width: 95%;
+    }
 }
 @media screen and (max-width: 1080px){
     .hero-image img{
@@ -848,6 +1069,12 @@ a{
     }
     .card-text{
         font-size: 12px;
+    }
+
+    /* Enrollment Modal */
+
+    .course-list{
+        font-size: 14px;
     }
 }
 
@@ -920,6 +1147,13 @@ a{
         width: 100%;
         height: 230px;
     }
+
+    .section-two .offer-card{
+        width: 95%;
+        height: 230px;
+    }
+
+   
     .card-div .card {
         padding-right: 3px;
         padding-left: 3px;
@@ -936,6 +1170,18 @@ a{
     #hand-holding-phone{
         height: 480px;
     }
+
+    /* Enrollment Modal */
+    .main{
+        flex-wrap: wrap;
+    }
+    .section-one, .section-two{
+        width: 100%;
+    }
+    .pay-div{
+        padding: 15px 10px;
+    }
+
 }
 
 @media screen and (max-width: 902px){
@@ -1017,12 +1263,23 @@ a{
         width: 40%;
         float: left;
     }
+
+    .section-two .offer-card{
+        width: 95%;
+        float: none!important;
+    }
     #hand-holding-phone{
         right: 0;
         bottom: 0;
         /* width: 40%; */
         float:right;
         height: 450px; 
+    }
+
+    /* Enrollment Modal */
+
+    .section-one, .section-two{
+      margin-bottom: 0px!important;
     }
     
 }
@@ -1348,6 +1605,24 @@ a{
     #hand-holding-phone{
         height: 230px;
     }
+
+    /* Enrollment Modal */
+    .section-two{
+        padding-left: 20px!important;
+    }
+    .enrollment-section-heading{
+        font-size: 1.3rem;
+    }
+    /* .enrollment-section-heading-instruction{
+        font-size: .7rem;
+    } */
+
+    .main .label{
+        font-size: 14px;
+    }
+    .main .star{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -1438,6 +1713,12 @@ a{
     .modal-sub-headings{
         font-size: 20px;
     }
+
+    /* Enrollment Modal */
+    .continue-button{
+        font-size: 16px;
+        padding: 7px 30px;
+    }
     
 }
 
@@ -1477,20 +1758,14 @@ a{
         
         font-size: 18px;
     }
-    
-     /* Courses Section */
-     /* .product-card-btn{
-        padding: 8px 8px;
-        font-size: 13px;
-    }
 
-    .course-button{
-        width: 1001%;
-        margin-right: 0px!important;
+    /* Enrollment Modal */
+    .enrollment-section-heading{
+        font-size: 1rem;
     }
-    .learn-button{
-        width: 33%;
-    } */
+    .section-two .offer-card{
+        /* width: 100%; */
+    }
 }
 
 @media screen and (max-width: 360px){
@@ -1518,7 +1793,15 @@ a{
     .sub, .sub-text.mode{
         font-size: 10px;
     }
-    
+    .offer{
+        font-size: 17px;
+    }
+
+    /* Enrollment Modal */
+    .continue-button{
+        font-size: 16px;
+        padding: 7px 10px;
+    }
 
 }
 
@@ -1537,6 +1820,10 @@ a{
     }
     .card-div .card{
         width: 49%;
+    }
+
+    .course-list{
+        font-size: 13px;
     }
 }
 
@@ -1560,5 +1847,8 @@ a{
     }
     .card-div .card{
         width: 100%;
+    }
+    .course-list{
+        font-size: 12px;
     }
 }
