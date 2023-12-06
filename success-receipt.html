@@ -36,8 +36,8 @@
             </div>
         </div>
         <div class="button-dv">
-            <div class="boton pdf-boton"><img src="images/import.svg" class="import-icon"><p>Download Pdf Receipt</p> </div>
-            <button class="boton home-boton">Back to Home</button>
+            <div class="boton pdf-boton"><img src="images/import.svg" class="import-icon"><p><a href="#" class="a-txt">Download Pdf Receipt</a></p> </div>
+            <button class="boton home-boton"><a href="#" class="a-txt hme">Back to Home</a></button>
         </div>
     </div>
 
@@ -45,6 +45,9 @@
         body{
             font-family: "Gill Sans", sans-serif;
             background-color: rgb(240, 240, 240);
+        }
+        a{
+            text-decoration: none;
         }
         .receipt-body{
             padding: 15px 20px;
@@ -107,14 +110,19 @@
             display: flex;
             padding: 10px 50px;
             background: #d62828;
+        }
+        .a-txt {
             color: #fff;
         }
         .home-boton{
             padding: 8px 30px;
             background: #ffdfdf;
             font-weight: 600;
-            color: #d62828;
+            
             border: 1px solid #d62828;
+        }
+        .hme{
+            color: #d62828;
         }
     </style>
 </body>
