@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Declined</title>
+</head>
+<body>
+    <div class="receipt-body">
+        <div class="close-dv"><img src="images/Close.svg"></div>
+        <div class="success-dv">
+            <img src="images/declined Icon.svg" class="icn">
+            <h4 class="declined-txt">Payment Declined!</h4>
+            <h5 class="payment-txt">Your Payment for <span class="spn">Product Design UI/UX - Tech Awoof</span> Was not Succesful.</h5>
+        </div>
+        <div class="tot-payment">
+            <h5>Total Payment</h5>
+            <h4 class="tot-pay">&#8358;50,130</h4>
+        </div>
+        <div class="detail">
+            <div class="det-txt">
+                <h5>Ref Number</h5>
+                <h5>Payment Time</h5>
+                <h5>Payment Method</h5>
+                <h5>Sender Name</h5>
+                <h5>VAT</h5>
+                <h5>Amount</h5>
+            </div>
+            <div>
+                <h5>000085752257</h5>
+                <h5>25-02-2023,13:22:16</h5>
+                <h5>Bank Transfer</h5>
+                <h5>Antonio Roberto</h5>
+                <h5>130</h5>
+                <h5>50,000</h5>
+            </div>
+        </div>
+        <div class="button-dv">
+            <div class="boton pdf-boton"><img src="images/import.svg" class="import-icon"><p><a href="#" class="a-txt">Download Pdf Receipt</a></p> </div>
+            <button class="boton home-boton"><a href="#" class="a-txt hme">Back to Home</a></button>
+        </div>
+    </div>
+
+    <style>
+        body{
+            font-family: "Gill Sans", sans-serif;
+            background-color: rgb(240, 240, 240);
+        }
+        a{
+            text-decoration: none;
+        }
+        .receipt-body{
+            padding: 15px 20px;
+            max-width: 40%;
+            margin: auto;
+            background: #fff;
+            min-height: 700px;
+            border-radius: 8px;
+        }
+        .close-dv{
+            float: right !important;
+            cursor: pointer;
+        }
+        .success-dv{
+            padding-top: 15px;
+            text-align: center;
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
+        .icn{
+            padding-left: 20px;
+        }
+        .declined-txt{
+            color: rgba(209, 16, 16, 0.952);
+            font-size: 23px;
+            font-weight: 600;
+        }
+        .payment-txt{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .spn{
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .tot-payment{
+            text-align: center;
+        }
+        .tot-pay{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .detail{
+            display: flex;
+            justify-content: space-between;
+        }
+        .det-txt{
+            color: #4e4d4d;
+        }
+        .button-dv{
+            display: flex;
+            justify-content: space-between;
+        }
+        .boton{
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 8px;
+           
+        }
+        .pdf-boton{
+            display: flex;
+            padding: 10px 50px;
+            background: #d62828;
+        }
+        .a-txt {
+            color: #fff;
+        }
+        .home-boton{
+            padding: 8px 30px;
+            background: #ffdfdf;
+            font-weight: 600;
+            
+            border: 1px solid #d62828;
+        }
+        .hme{
+            color: #d62828;
+        }
+    </style>
+</body>
+</html>

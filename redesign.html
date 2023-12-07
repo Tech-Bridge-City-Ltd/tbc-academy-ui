@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receipt re-design</title>
+</head>
+<body>
+    <div class="receipt-body">
+        <div class="receipt-detail">
+            <div class="receipt-block1">
+                <img src="images/red&grey-header.svg">
+                <div class="receipt-block2">
+                    <img src="images/TBC logo.svg" width="150px" height="110px" class="pt-4">
+                    <div class="vision">
+                        Innovate <li class="li-tag">Launch</li> <li class="li-tag">Thrive</li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="receipt-block">
+                <div class="location-div" >
+                    <img src="images/Location pin.svg" width="50px" height="50px">
+                    <div class="loc-text">
+                        17 Ihunwo Street, Oakview Estate Gbalajam Woji Port-Harcourt
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <div class=" contact-div">
+                        <img src="images/Call.svg " >
+                        <span class="text">+234 810 251 6689</span>
+                    </div>
+                    <div class="div"> 
+                        <img src="images/Email.svg" >
+                        <span class="text">hello@techbridge.city</span>
+                    </div>
+                </div>
+
+            </div>
+
+      
+        </div>
+        <div class="paym-receipt">
+            <div class="pyment">
+                <h4 class="pay-txt">PAYMENT RECEIPT</h4>
+                <h5 class="invoice">Invoiced to:</h5>
+                <h5 class="in-txt">Lebari Francis Pado</h5>
+                <h5 class="in-txt">padosky45@gmail.com</h5>
+                <h5 class="in-txt">+2347036773498</h5>
+                <p class="addrs"> 17 Ihunwo Street, Oakview Estate Woji </p>
+            </div>
+
+            <div class="invoicee">
+                <div class="in-div">
+                    <h5 class="invoice in-no">Invoice Number</h5>
+                    <h5 class="in-txt mt-2 in-num">#232308243423</h5>
+                </div>
+                <div>
+                    <h5 class="invoice in-date">Invoice Date</h5>
+                    <h5 class="in-txt mt-2 in-date">13/01/2021 12:34:09</h5>
+                </div>
+            </div>
+
+            <div class="invoicee">
+                <div class="in-div">
+                    <h5 class="invoice in-no">Paid to</h5>
+                    <h5 class="in-txt in-num ">TechBridge City Ltd</h5>
+                </div>
+                <div>
+                    <h5 class="invoice in-date">Payment method</h5>
+                    <h5 class="in-txt in-date">Bank Transfer</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="dda">
+            <div class="dda-header">
+                <h4 class="dda-tx">Date</h4>
+                <h4 class="dda-tx">Description</h4>
+                <h4 class="dda-tx dda-amount">Amount</h4>
+            </div>
+            <div class=" dda-info">
+                <h4 class="info-tx">13/01/2021 12:34:09</h4>
+                <h4 class="info-tx info-cus">Data Science And Analytics- Awoof Course</h4>
+                <h4 class="info-tx ">&#8358;100,000</h4>
+            </div>
+            <div class="dda-header tot ">
+                <h4 class="dda-tx"></h4>
+                <h4 class="tot-tx tot-cus">Total</h4>
+                <h4 class="tot-tx tot-amount">&#8358;100,000</h4>
+            </div>
+        </div>
+        <div class=" sgn-section">
+            <div class="sgn">
+                <h4 class="sgn-name">Pado Lebari Francis</h4>
+                <h4 class="sgn-occ">Program manager</h4>
+            </div>
+            <div class="sgn">
+                <h4 class="sgn-name">Nnebuchi Osigbo</h4>
+                <h4 class="sgn-occ">Chief Innovation Officer</h4>
+            </div>
+            <div class="sgn">
+                <h4 class="sgn-name">Ejetavwo Mukoro</h4>
+                <h4 class="sgn-occ">CEO</h4>
+            </div>
+            
+        </div>
+        <div class="terms">
+            <h4 class="tc">TERMS AND CONDITIONS</h4>
+            <ul class="ul">
+                <li class="lis">
+                    Payment Discount (over 60%) for the Awoof is only valid during the payment window (4th Feb, 2024 11:59pm GMT +1).
+                </li>
+                <li class="lis">
+                    Course Duration for Techical Courses(Frontend, Backend, Datascience)is 16 weeks and 10 weeks for Non-technical courses(Product Design, WordPress, and Digital Marketing). 
+                 </li>
+            </ul>
+        </div>
+        <div class="foter">
+            <footer>
+
+            </footer> 
+        </div> 
+    </div>
+    <style>
+        body{
+            font-family: "Gill Sans", sans-serif;
+        }
+        .receipt-body{
+            max-width: 80%;
+            margin: auto;
+          
+        }
+        .receipt-detail{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ffa6a6;
+        }
+        .receipt-block1{
+            display: flex;
+            width: 50%;
+        }
+        .receipt-block2{
+            padding-left: 20px;
+        }
+        .vision{
+            display: flex;
+            justify-content: space-between;
+            color: rgb(255, 255, 255);
+            background: #1e1e1e;
+            border-radius: 15px;
+            padding: 5px 4px;
+            font-size: 12px;
+        }
+        .li-tag{
+            margin: 0px !important;
+            padding: 0 !important;
+        }
+        .receipt-block{
+            padding-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+        .location-div{
+            display: flex;
+            width: 45%;
+        }
+        .loc-text{
+            font-weight: 600;
+            padding-top: 5px;
+            margin-left: 5px;
+        }
+        .contact{
+            padding-top: 0px
+        }
+        .contact-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .div{
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+        }
+        .text{
+            margin-left: 10px;
+        }
+        .paym-receipt{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            min-height: 320px;
+        }
+        .pyment{
+            width: 300px;
+        }
+        .pay-txt{
+            margin-bottom: 10px;
+            /* padding-top: 10px; */
+            color: #d62828;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .invoice{
+            color: rgb(116, 116, 116);
+            font-size: 23px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .in-txt{
+            margin: 2px;
+            font-weight: 600;
+            font-size: 23px;
+        }
+        .addrs{
+            font-size: 23px; 
+        }
+        .invoicee{
+            padding-top: 40px;
+            margin-top: 30px;
+        }
+        .in-div{
+            margin-bottom: 40px;
+        }
+        .in-no,.in-date{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .in-num{
+            font-size: 25px;
+        }
+        .dda{
+            min-height: 250px;
+        }
+        .dda-header{
+            display: flex;
+            justify-content: space-between;
+            background: rgb(206, 206, 206);
+            margin-top: 30px;
+            padding: 3px 50px 3px 10px;
+            text-align: center;
+        }
+        .dda-tx{
+            color: #d62828;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .dda-info{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 3px 30px 3px 10px;
+            margin-bottom: 50px;
+        }
+        .info-tx{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .info-cus{
+            padding-left: 100px;
+            font-size: 20px;
+        }
+        .tot{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px 3px 10px;
+            
+        }
+        .tot-tx{
+            font-weight: 600;
+            font-size: 20px;
+       }
+       .tot-cus{
+            font-size: 23px;
+            padding-left: 20px;
+       }
+       .tot-amount{
+            color: #d62828;
+            font-weight: 600;
+            font-size: 23px;
+       }
+       .sgn-section{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            padding-top: 30px;
+            min-height: 300px;
+       }
+       .sgn{
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid black ;
+            width: 30%;
+       }
+       .sgn-name{
+            font-size: 20px;
+            font-weight: 600;
+       }
+       .sgn-occ{
+            font-size: 19px;
+            font-weight: 400;
+       }
+       .tc{
+            font-size: 27px;
+            color: #d62828;
+            font-weight: 600;
+       }
+       .lis{
+            font-weight: 600;
+            font-size: 23px;
+            margin-bottom: 10px;
+       }
+       .foter{
+            margin-top: 80px;
+       }
+       footer{
+            background-image:url("images/colored-bottom.svg");
+            min-height: 50px;
+            width: 100%;
+            background-repeat: no-repeat;
+       }
+
+
+    </style>
+</body>
+</html>
