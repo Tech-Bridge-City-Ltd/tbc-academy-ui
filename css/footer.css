@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-div{
+    background-color: #1c1c1c;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.links{
+    padding-left: 40px;
+    border-left: 1px solid #6f6f6f;
+}
+.link-list{
+  padding-left: 0px;
+  list-style: none;
+  color: #6f6f6f;
+  font-size: 15px;
+}
+.contact-info{
+    padding-left: 40px;
+     border-left: 1px solid #6f6f6f;
+}
+.contact-text{
+    color: #6f6f6f;
+    font-size: 15px;
+}
+.social-follow{
+    padding-left: 30px;
+    border-left: 1px solid #6f6f6f;
+}
+.social-list{
+    display: flex;
+
+}
+h4{
+    color: #d6d5d5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.privacy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px ;
+    padding-right: 40px;
+    background: #141414;
+    height: 100px;
+    align-items: center;
+}
+.year{
+     color: #6f6f6f;
+     font-size: 15px;
+}
+.tm{
+    color: #6f6f6f;
+    font-size: 15px;
+}
